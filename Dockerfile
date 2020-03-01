@@ -7,4 +7,3 @@ RUN yum makecache && yum -y install epel-release &&\
     mkdir /repo && chown ansible-user:ansible-user /repo
 
 USER ansible-user
-WORKDIR /home/ansible-user
