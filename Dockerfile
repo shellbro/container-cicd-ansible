@@ -1,4 +1,4 @@
-FROM shellbro/centos:8.1.1911-1583066294
+FROM shellbro/centos:8.1.1911-1586073474
 
 RUN yum makecache && yum -y install epel-release &&\
     yum -y install ansible openssh-clients git && yum clean all &&\
