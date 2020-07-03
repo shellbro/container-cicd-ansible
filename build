@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo docker build --pull --no-cache\
+                  -t localhost:5000/shellbro/ansible:latest "$@" .
